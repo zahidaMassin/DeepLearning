@@ -20,7 +20,6 @@ testX = testX.reshape(10000, 784)
 trainX = trainX.astype('float32')
 testX = testX.astype('float32')
 
-
 trainX /= 255
 testX /= 255
 
