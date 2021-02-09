@@ -14,7 +14,6 @@ for i in range(9):
 	plt.imshow(trainX[i], cmap=plt.get_cmap('gray'))
 plt.show()
 
-
 trainX = trainX.reshape(60000, 784)
 testX = testX.reshape(10000, 784)
 
