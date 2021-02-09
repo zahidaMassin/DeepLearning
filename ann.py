@@ -20,7 +20,7 @@ testX = testX.reshape(10000, 784)
 trainX = trainX.astype('float32')
 testX = testX.astype('float32')
 
-# normalizing the data to help with the training
+
 trainX /= 255
 testX /= 255
 
