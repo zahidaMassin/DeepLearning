@@ -39,7 +39,7 @@ model.add(Dense(512, activation='relu'))
 model.add(Dense(10, activation= 'softmax'))
 model.summary()
 
-# compiling model
+
 model.compile(loss='categorical_crossentropy',
  metrics=['accuracy'],
   optimizer='adam')
