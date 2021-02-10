@@ -1,4 +1,4 @@
-#Training Cnn with Mnist datasets by AliZahid
+#Training Cnn with cifar10 datasets by AliZahid
 
 import numpy as np
 from keras.utils.np_utils import to_categorical
@@ -82,3 +82,5 @@ plt.legend(['train', 'test'], loc='upper right')
 plt.tight_layout()
 plt.show()
 
+#score = model.evaluate(x_test, y_test, verbose=0)
+#print('\n', 'Test accuracy:', score[1])
