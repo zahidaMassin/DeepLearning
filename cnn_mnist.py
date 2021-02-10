@@ -1,5 +1,4 @@
 #Training Cnn with Mnist datasets by AliZahid
-
 import numpy as np
 from keras.utils.np_utils import to_categorical
 from keras.models import Sequential
